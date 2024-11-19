@@ -2,6 +2,8 @@
 services:
   test:
     image: nginx
+    environment:
+      - TEST=${HAHA}
     ports:
       - "80:80"
     restart: always
