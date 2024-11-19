@@ -1,0 +1,12 @@
+---
+services:
+  test:
+    image: nginx
+    ports:
+      - "80:80"
+    restart: always
+    networks:
+      - test
+
+networks:
+  test:
