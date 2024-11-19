@@ -4,6 +4,7 @@ services:
     image: nginx
     environment:
       - TEST=${HAHA}
+      - TEST=huhu
     ports:
       - "80:80"
     restart: always
